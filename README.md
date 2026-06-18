@@ -12,6 +12,18 @@ The system includes:
 
 ---
 
+## About the Notebook
+
+The repository includes a comprehensive Jupyter Notebook: `Enhanced Pipeline for Churn Prediction.ipynb`. 
+This notebook covers the complete data science workflow used to develop the predictive model:
+- **Exploratory Data Analysis (EDA):** Visualizing data distributions and relationships.
+- **Data Preprocessing:** Handling missing values, encoding categorical variables, and scaling.
+- **Model Training:** Training the XGBoost classifier to predict customer churn.
+- **Model Evaluation:** Evaluating the model's performance using metrics like accuracy, precision, recall, and the confusion matrix.
+- **Pipeline Export:** Saving the trained model and preprocessing artifacts for deployment via the FastAPI application.
+
+---
+
 ## Technologies Used
 - Python
 - FastAPI
